@@ -11,8 +11,8 @@ To implement Erosion and Dilation using Python and OpenCV.
 - Step4: Next,perform dilation for inout text and display the result
 ## Program:
 ```
-DEVELOPED BY: KANISHKAR M
-REGISTER NUMBER: 212222240044
+DEVELOPED BY: DINESH KUMAR R
+REGISTER NUMBER: 212222110010
 ```
 ### Import the necessary packages
 ```python
@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 ```python
 img1=np.zeros((100,400),dtype='uint8')
 font=cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img1,'KANISHKAR',(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img1,'Dinesh',(5,70),font,2,(255),5,cv2.LINE_AA)
 ```
 ### Create the structuring element
 ```python
@@ -46,15 +46,18 @@ plt.axis("off")
 ## Output:
 ### Display the input Image
 
-![image](https://github.com/KANISHKAR2607/erosion-dilation/assets/118886772/bf7bbf5f-d3fd-4469-affa-8aa5fb5d0bad)
+![Screenshot 2024-04-17 085015](https://github.com/DINESH18032004/erosion-dilation/assets/119477784/e3a0e70f-dc04-441a-9c4d-44828721e0a4)
+
 
 ### Display the Eroded Image
 
-![image](https://github.com/KANISHKAR2607/erosion-dilation/assets/118886772/2d75a23b-9d31-4d85-9bee-a4cf737a2904)
+![Screenshot 2024-04-17 085027](https://github.com/DINESH18032004/erosion-dilation/assets/119477784/4e6afba0-c351-4793-baa1-05f815c3ab5c)
+
 
 ### Display the Dilated Image
 
-![image](https://github.com/KANISHKAR2607/erosion-dilation/assets/118886772/34c0e156-243f-4538-ac1a-5d5a86043d5e)
+![Screenshot 2024-04-17 085103](https://github.com/DINESH18032004/erosion-dilation/assets/119477784/378152ef-dcab-405c-8c90-689b5f1f0d43)
+
 
 ## Result
 Thus the generated text image is eroded and dilated using python and OpenCV.
